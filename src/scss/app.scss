@@ -1,6 +1,8 @@
-* {
-  background-color: aqua;
-}
-body {
-  display: flex;
-}
+// theme
+@import './base/theme.scss';
+// normalize
+@import './base/normalize.scss';
+// pages
+@import './pages/main';
+// components
+@import './components/header';
