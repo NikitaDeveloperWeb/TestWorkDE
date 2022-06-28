@@ -15,7 +15,6 @@ const PATHS = {
   src: path.join(__dirname, './src'),
   dist: path.join(__dirname, './dist'),
 };
-
 const PAGES_DIR = `${PATHS.src}/pug/pages/`;
 const PAGES = fs.readdirSync(PAGES_DIR).filter((fileName) => fileName.endsWith('.pug'));
 const filename = (ext) => (isDev ? `[name].${ext}` : `[name].[hash].${ext}`);
@@ -87,7 +86,7 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new MiniCssExtractPlugin({ filename: filename('.css') }),
     new CopyWebpackPlugin({
-      patterns: [],
+      patterns: [{ from: `${PATHS.src}/assets/img`, to: `${PATHS.dist}/assets/img` }],
     }),
     ...PAGES.map(
       (page) =>

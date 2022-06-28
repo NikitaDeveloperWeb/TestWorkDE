@@ -1,8 +1,10 @@
 // theme
 @import './base/theme.scss';
+// size
+@import './base/size.scss';
 // normalize
 @import './base/normalize.scss';
 // pages
 @import './pages/main';
 // components
-@import './components/header';
+@import './components/header', './form/buttons';

@@ -1,0 +1,14 @@
+.button-main {
+  width: 220px;
+  padding: 15px 48px 15px 48px;
+  border: none;
+  background-color: var(--button-color-main);
+  color: var(--font-color-white);
+  border-radius: 10px;
+  transition: 0.7s;
+  &:hover {
+    cursor: pointer;
+    background-color: var(--button-color-main-hover);
+    transition: 0.7s;
+  }
+}

@@ -1,1 +1,0 @@
-{"version":3,"file":"main..css","mappings":";;;AAAA;EACE,sBAAsB;;AAExB;EACE,oBAAa;EAAb,aAAa","sources":["webpack://testworkde/./src/scss/app.scss"],"sourcesContent":["* {\r\n  background-color: aqua;\r\n}\r\nbody {\r\n  display: flex;\r\n}\r\n"],"names":[],"sourceRoot":""}
