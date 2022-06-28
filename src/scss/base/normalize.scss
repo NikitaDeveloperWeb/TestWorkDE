@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--bg-color-primary);
+  font-family: 'Gilroy', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: block;
+  width: 100vh;
+}
+h1 {
+  font-family: 'Galien', sans-serif;
+}
+p {
+  font-family: 'Gilroy', sans-serif;
+}
