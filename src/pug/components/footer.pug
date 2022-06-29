@@ -1,0 +1,54 @@
+footer
+  .footer-section
+    .footer-section__top
+      h2 Our Beloved Client
+      p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    .footer-section__list
+      - var values = ['LOGO 1','LOGO2','LOGO3','LOGO4','LOGO5','LOGO6','LOGO7','More Client'];
+      //- здесь не понял как можно сделать линии, как на макете
+      ul
+        each val in values
+          li= val
+        else
+          li There are no values
+  .footer-bottom
+    .footer-bottom__top
+      .footer-bottom__top__typography
+        h2 Intersted to woek with our team?
+        p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+      .footer-bottom__top__but
+        button(class="button-secondary") Let’s Talk
+    .footer-bottom__data
+      .footer-bottom__data__lists
+        .footer-bottom__data__lists__item
+          .logo-bottom
+            include ../svg/logo2
+            h2 Afrianska
+          ol(type="A")
+            li(value="A") Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            li(value="T") +62-812-7313-4321
+            li(value="E") <a href="mailto:hello.afrian@gmail.com">hello.afrian@gmail.com</a>
+        .footer-bottom__data__lists__item
+          h2 About US
+          ul(type="A")
+              li
+                a(href="#") About
+              li
+                a(href="#") What We Do  
+              li
+                a(href="#") Project
+              li
+                a(href="#") How It Work With Us
+        .footer-bottom__data__lists__item
+          h2 Follow US
+          ul(type="A")
+              li
+                a(href="#") Instagram
+              li
+                a(href="#") Facebook
+              li
+                a(href="#") LinkedIn
+              li
+                a(href="#") YouTube
+        
+      p(class="copyrate") 2019 © Afrianska. All rights reserved. 

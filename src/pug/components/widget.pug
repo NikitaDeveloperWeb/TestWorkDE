@@ -6,7 +6,8 @@ mixin Widget(sprite,title,text)
       else if sprite === 2
         include ../svg/icon2
       else
-        include ../svg/icon3
+        .widget__sprite__abs
+          include ../svg/icon3
 
     h3 #{title}
 
