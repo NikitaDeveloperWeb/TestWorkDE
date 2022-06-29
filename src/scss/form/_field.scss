@@ -1,0 +1,19 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  width: 100%;
+  input,
+  textarea {
+    width: 100%;
+    border: 1px solid var(--field-border);
+    border-radius: 10px;
+    padding: 20px 40px 20px 40px;
+    color: var(--field-text-color);
+    margin-top: 10px;
+  }
+  &__error {
+    margin-top: 10px;
+    color: var(--field-text-color);
+  }
+}

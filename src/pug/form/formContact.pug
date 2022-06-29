@@ -1,0 +1,15 @@
+form#form__feedback(action='',class="form-feedback")
+      h2 SEND US MESSAGE
+      .field
+        label(for='fullname') Full name
+        input#name(type='text', placeholder='Full name', name='fullname')
+        #nameErr.field__error
+      .field
+        label(for='email') Email
+        input#email(type='email', placeholder='Email', name='email')
+        #emailErr.field__error
+      .field
+        label(for='message') Message
+        textarea#message(name='message', cols='30', rows='10', placeholder='Message')
+        #messageErr.field__error
+      button#btn(type='button' class="button-main") SUBMIT

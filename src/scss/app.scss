@@ -7,6 +7,6 @@
 // pages
 @import './pages/main';
 // forms components
-@import './form/buttons';
+@import './form/buttons', './form/field', './form/form';
 // components
-@import './components/header', './components/widget', './components/footer';
+@import './components/header', './components/widget', './components/footer', './components/modal';
