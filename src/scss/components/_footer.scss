@@ -113,6 +113,7 @@ footer {
       flex-wrap: wrap;
       &__item {
         margin-left: 50px;
+        margin-top: 20px;
         h2 {
           font-size: 20px;
           color: var(--font-color-white);
@@ -150,4 +151,56 @@ footer {
   opacity: 0.4;
   font-size: 16px;
   margin-top: 60px;
+}
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  .footer-section {
+    &__top {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90% !important;
+
+      h2,
+      p {
+        width: 90%;
+        padding: 20px;
+        text-align: center;
+      }
+    }
+  }
+  .footer-bottom {
+    padding: 90px 100px 65px 0px;
+    &__top {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90% !important;
+      &__typography {
+        width: 90%;
+      }
+      &__but {
+        align-self: flex-starts;
+        margin: 0;
+        .button-secondary {
+          margin: 0;
+          margin-top: 20px;
+        }
+      }
+    }
+    &__data {
+      padding: 20px;
+      &__lists {
+        flex-direction: column;
+        align-items: flex-start;
+
+        &__item {
+          margin-top: 20px !important;
+        }
+      }
+    }
+  }
+  .copyrate {
+    width: 100%;
+    text-align: center;
+  }
 }
