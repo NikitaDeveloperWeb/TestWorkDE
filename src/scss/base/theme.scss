@@ -5,11 +5,18 @@
   --font-color-secondary: hsla(214, 54%, 26%, 0.6);
   --font-color-title-blue: #316099;
   --font-color-white: #fff;
+  --font-color-white-op: rgba(255, 255, 255, 0.6);
   --link-font-color: #5a98d0;
   --link-font-color-hover: #216fb4;
   --button-color-main: rgba(90, 152, 208, 1);
   --button-color-main-hover: rgb(57, 137, 207);
+  --button-color-secondary: #5a98d0;
+  --button-color-secondary-hover: #408ccf;
   --shadow-color-one: rgba(16, 112, 177, 0.2);
+  --footer-bg-color-primory: #5a98d0;
+  --footer-bg-color-secondary: #316099;
+  --color-last-child: hsla(214, 54%, 26%, 0.2);
+  --color-border-top: rgba(255, 255, 255, 0.4);
   // gradient
   --gradient-one: linear-gradient(
     180.99deg,

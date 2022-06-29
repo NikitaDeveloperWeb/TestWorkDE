@@ -2,15 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--bg-color-primary);
+
   font-family: 'Gilroy', sans-serif;
 }
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 body {
   display: block;
   width: 100vw;
+  background-color: var(--bg-color-primary);
 }
 h1 {
   font-family: 'Galien', sans-serif;
