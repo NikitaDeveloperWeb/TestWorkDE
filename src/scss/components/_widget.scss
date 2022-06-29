@@ -1,0 +1,32 @@
+.widget {
+  width: 380px;
+  padding: 50px 75px 50px 75px;
+  box-shadow: var(--shadow-one);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  &__sprite {
+    // background: var(--gradient-one);
+  }
+  h3 {
+    margin-top: 50px;
+    color: var(--font-color-primary);
+  }
+  p {
+    margin-top: 20px;
+  }
+  &__link {
+    margin-top: 30px;
+    align-self: flex-start;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    svg {
+      margin-left: 25px;
+    }
+    &:hover {
+    }
+  }
+}

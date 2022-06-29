@@ -1,0 +1,17 @@
+mixin Widget(sprite,title,text)
+  div(class="widget")
+    .widget__sprite
+      if sprite === 1
+        include ../svg/icon1
+      else if sprite === 2
+        include ../svg/icon2
+      else
+        include ../svg/icon3
+
+    h3 #{title}
+
+    p #{text}
+
+    .widget__link
+      a(href="#") Learn more
+      include ../svg/arrow

@@ -1,8 +1,21 @@
 :root {
   --bg-color-primary: #fff;
+  --bg-color-secondary: #e5e5e5;
   --font-color-primary: rgba(31, 63, 104, 1);
   --font-color-secondary: hsla(214, 54%, 26%, 0.6);
+  --font-color-title-blue: #316099;
   --font-color-white: #fff;
+  --link-font-color: #5a98d0;
+  --link-font-color-hover: #216fb4;
   --button-color-main: rgba(90, 152, 208, 1);
   --button-color-main-hover: rgb(57, 137, 207);
+  --shadow-color-one: rgba(16, 112, 177, 0.2);
+  // gradient
+  --gradient-one: linear-gradient(
+    180.99deg,
+    rgba(255, 255, 255, 0) 6.19%,
+    rgba(100, 181, 246, 0.6) 103.09%
+  );
+  // shadow
+  --shadow-one: 5px 20px 50px var(--shadow-color-one);
 }

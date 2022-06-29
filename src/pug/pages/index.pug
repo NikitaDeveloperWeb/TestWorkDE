@@ -1,5 +1,5 @@
 extends ../layout/main
-
+include ../components/widget
 block variables
   - var title = 'Test work';
   - var description = 'Test work for DE';
@@ -7,3 +7,12 @@ block variables
 block content
   .app
     include ../components/header
+    .app__content
+      .app__content__left
+        h2 What we do to helpour client grow in digital era,
+        +Widget(1,'Make Your business To Be Better Famous In Internet','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+         
+      .app__content__rigth
+        +Widget(3,'Bring Technology To Your Comfrotable Home','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')
+        .block
+        +Widget(2,'Build Your Digital Product That Suitable For Your Need','Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.')

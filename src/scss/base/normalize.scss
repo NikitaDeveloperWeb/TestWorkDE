@@ -20,3 +20,12 @@ p {
   font-family: 'Gilroy', sans-serif;
   color: var(--font-color-secondary);
 }
+a {
+  text-decoration: none;
+  color: var(--link-font-color);
+  transition: 0.7s;
+  &:hover {
+    color: var(--link-font-color-hover);
+    transition: 0.7s;
+  }
+}

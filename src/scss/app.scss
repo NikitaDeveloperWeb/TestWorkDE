@@ -6,5 +6,7 @@
 @import './base/normalize.scss';
 // pages
 @import './pages/main';
+// forms components
+@import './form/buttons';
 // components
-@import './components/header', './form/buttons';
+@import './components/header', './components/widget';
